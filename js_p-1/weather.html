@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="main">
+        
+        <div class="container1">
+            <div class="title">
+                Weather Calculator
+            </div>
+            <div id="div1">
+                <label for="city">
+                    <input id="city_text" type="text" placeholder="Enter your city name">
+                </label>
+            </div>
+            <button id="search_button">
+                <img id="search" src="search.png" alt="img">
+            </button>
+            <div class="container11">
+                <img id="climate_image" src="cloudy.png" alt="img">
+            </div>
+            <div class="container12">
+                <h1 id="temp">
+                    Temperature
+                </h1>
+            </div>
+            <div class="container13">
+                <h2 id="city_name">
+                    City
+                </h2>
+            </div>
+            <div class="container14">
+                <div id="humidity">
+                    <img id="humidity_image" src="humidity.png" alt="img">
+                    <h2 class="humidity_percentage">
+                        Percentage
+                    </h2>
+                    <h3 id="title_humidity">
+                        Humidity
+                    </h3>
+                </div>
+                <div id="wind_speed">
+                    <img id="wind_speed_image" src="storm.png" alt="img">
+                    <h2 class="wind_speed_percentage">
+                        Percentage
+                    </h2>
+                    <h3 id="title_wind_speed">
+                        Wind Speed
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>

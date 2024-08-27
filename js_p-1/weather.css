@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+
+.container1{
+    background: linear-gradient(-45deg, #833AB4, #E1306C, #FD1D1D, #FCAF45);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+    box-shadow: 2px 2px 3px 2px black;
+}
+
+.title{
+    font-size: 50px;
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#city_text{
+    height: 50px;
+    width: fit-content;
+    min-width: 300px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    padding-left:15px ;
+    color: grey;
+    cursor: text;
+    box-shadow: 2px 2px 3px black;
+}
+
+#search{
+    height: 40px;
+    
+}
+
+#search_button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+}
+
+#search_button:hover{
+    transform: scale3d(1.05,1.05,1.05);
+}
+
+.container11{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#climate_image{
+    height: 150px;
+}
+
+
+
+.container12{
+    width: 100%;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.container13{
+    width: 100%;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.container14{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+#humidity{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    padding: 2%;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#humidity_image{
+    height: 70px;
+    width: 70px;
+}
+
+#wind_speed{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    padding: 2%;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#wind_speed_image{
+    height: 70px;
+    width: 70px;
+}
+
+#city_name{
+    background-color: black;
+    border-radius: 50px;
+}
